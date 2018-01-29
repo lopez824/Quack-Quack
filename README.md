@@ -1,2 +1,2 @@
 # Quack-Quack
-Website Project due in two weeks!
+Website Project due in one week!
