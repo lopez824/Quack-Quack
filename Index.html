@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Index</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	h1 {
+    text-align: center;
+}
+	.darbyimagelocation{
+	position: absolute;
+	visibility: visible; 
+	left: 75px; 
+	top: 50px; 
+	
+	}
+	.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 10px;
+  padding: 16px 32px;
+	}
+</style>
+
+</head>
+ <header id="banner">
+            
+            <h1> Quack Quack Group Website </h1>
+           
+        </header>
+
+<body>
+
+<div class="container">
+  <a href="https://www.linkedin.com/in/darby-mcbride-08240a156/"><img src="darbymcbridephoto.jpg" alt="darbymcbride" class="image darbyimagelocation" style="width:50%"></a>
+  <div class="middle">
+    <div class="text">Darby McBride:
+    Creative developer, story teller, future interactive artist</div>
+  </div>
+</div>
+</body>
+</html>
