@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OurWebsite</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+		h1 {
+    text-align: center;
+}
+	.whitneyimagelocation{
+		visibilty: visible;
+		
+	}
+	/*Start of Darby's picture effects. Feel free to use and modify*/
+	
+	.darbyimagelocation{
+	
+	visibility: visible; 
+	
+	
+	}
+	
+	.connorimagelocation{
+	
+	visibility: visible; 
+	
+	
+	}
+	
+	lionelimagelocation{
+		visibility: visible;
+	}
+	
+	.container {
+    position: relative;
+		left: 430px; 
+		top: -400px; 
+    width: 30%;
+}
+	
+	.containerW {
+    position: relative;
+		left: 50px; 
+		top: 35px; 
+    	width: 40%;
+		
+}
+	.containerL{
+	position:relative;
+		left: 750px;
+		top: -730px;
+		width: 50%;
+	}
+	.containerC{
+	position:relative;
+		left: 1200px;
+		top: -1058px;
+		width: 50%;
+	}
+	
+.image {
+  opacity: 1;
+  display: block;
+  /*width: 70%;*/
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+	.container:hover .middle {
+  opacity: 1;
+}
+	.containerC:hover .image {
+  opacity: 0.3;
+}
+	.containerC:hover .middle {
+  opacity: 1;
+}
+.containerW:hover .middle {
+  opacity: 1;
+}
+	.containerW:hover .image {
+  opacity: 0.3;
+}
+.containerL:hover .middle {
+  opacity: 1;
+}
+	.containerL:hover .image {
+  opacity: 0.3;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 10px;
+  padding: 16px 32px;
+	}
+	/*End of Darby's picture effects*/
+	.textbackground {
+    background-color: white;
+    width: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+}
+	.pictureoutline {
+		border:5px solid white
+		
+	}
+h1 {text-align:center;
+	font-size:60px;
+	color:white;}
+body {
+	background-image: url(images/Duck2.png);
+}
+	p {
+	border: 5px solid #FFFFFF;
+}
+</style>
+</head>
+
+<!--WHITNEY STUFF -->
+<body>
+<h1>Q U A C K  &#160;&#160;&#160;&#160;&#160;Q U A C K</h1>
+	<div class="containerW">
+	<img src="images/WhitneyF.png" alt="WhitneyFreeman"  class="image whitneyimagelocation pictureoutline" >
+	<div class="middle">
+		<div class = "text">Whitney Freeman: Artist, creative writer, gamer. </div>
+	</div>
+	</div>
+
+		
+	<!--DARBY STUFF -->	
+<div class="container">
+  <a href="https://www.linkedin.com/in/darby-mcbride-08240a156/"><img src="images/darbymcbridephoto.jpg" alt="darbymcbride" class="image darbyimagelocation pictureoutline" style="width:50%"></a>
+  <div class="middle">
+    <div class="text">Darby McBride:
+    Creative developer, story teller, future interactive artist. Click for more info</div>
+  </div>
+</div>
+
+		<!--Lionel STUFF -->	
+<div class="containerL">
+ <img src="images/gs.jpg" alt="lionellopez" class="image lionellocation pictureoutline" style="width:50%">
+	
+  <div class="middle">
+    <div class="text">Lionel Lopez:
+    Addicted to Monster Hunter World lol</div>
+  </div>
+</div>
+	
+			<!--Connor's -->	
+<div class="containerC">
+ <img src="images/ConnorW.jpg" alt="ConnorWall" class="image connorimagelocation pictureoutline" style="width:50%">
+  <div class="middle">
+    <div class="text">Connor Wall:
+    Not good at thinking of creative taglines.</div>
+  </div>
+</div>
+
+
+</html>
