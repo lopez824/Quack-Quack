@@ -163,7 +163,15 @@ body {
 	p {
 	border: 10px solid #FFFFFF;
 		color:black;
-		background: white;
+		background-color: white;
+		 font-family: "Lucida Console", Monaco, monospace;	 
+    width: 700px;
+    border: 25px;
+    padding: 25px;
+ margin: auto;
+		align:center;
+		font-size:12px;
+		
 }
 
 .nav-link {background-color: white;
@@ -187,3 +195,23 @@ h2 {
 	height:200;
 	margin:0 auto
 }
+.centerWhitImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 50%;
+}
+.whitParagaph {
+	border: 10px solid #FFFFFF;
+	margin-left: auto;
+		color:black;
+		background-color: white;
+		 font-family: "Lucida Console", Monaco, monospace;	 
+    width: 700px;
+    border: 25px;
+    padding: 25px;
+	align:center;
+  
+		
+		font-size:12px;
+		
