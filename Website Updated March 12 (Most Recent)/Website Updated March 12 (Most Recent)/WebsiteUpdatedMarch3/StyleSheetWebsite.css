@@ -181,6 +181,7 @@ border-color: black;}
 #Tim {
 	transform: rotate(270deg);
 	align:middle;
+	
 }
 #BG {
 	align:middle;
@@ -193,7 +194,8 @@ h2 {
 	display:block; 
 	width:300;
 	height:200;
-	margin:0 auto
+	margin:0 auto;
+	padding-top:20px;
 }
 .centerWhitImage {
     
@@ -234,4 +236,8 @@ h2 {
     padding: 25px;
 	align:center;
   
+}
+#Wrapper
+{
+	padding:20px;
 }
