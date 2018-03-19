@@ -196,10 +196,32 @@ h2 {
 	margin:0 auto
 }
 .centerWhitImage {
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
 	border-radius: 50%;
+}
+.centerWhitImage:hover {
+    transform: scale(1.5); 
+   
+}
+.centerWhitImage2 {
+    
+    margin-left: auto;
+	border-radius: 50%;
+}
+.centerWhitImage2:hover {
+    transform: scale(1.5); 
+   
+}
+.centerWhitImage3 {
+    
+    margin-right: auto;
+	border-radius: 50%;
+}
+.centerWhitImage3:hover {
+    transform: scale(1.5); 
+   
 }
 .whitParagaph {
 	border: 10px solid #FFFFFF;
@@ -212,6 +234,4 @@ h2 {
     padding: 25px;
 	align:center;
   
-		
-		font-size:12px;
-		
+}
